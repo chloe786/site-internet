@@ -18,6 +18,7 @@
     </head>
    
 <body>
+    <!----NAVBAR------------->
 <header>
         <a href="#" class="logo"><span>M</span>IASULI</a>
         <div class=villatoggle onclick="toggleVilla();"></div>
@@ -75,14 +76,14 @@
 
 <div class="slider-container">
     <div class="menu">
-        <label for="slide-dot-1"></label>
+        <label for="slide-dot-1"></label>         <!--------label = légende pour un objet------->
         <label for="slide-dot-2"></label>
         <label for="slide-dot-3"></label>
 <label for="slide-dot-4"></label>
 <label for="slide-dot-5"></label>
     </div>
 
-    <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
+    <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>   <!------Input = contrôle intéractif saisie de données----->
     <img class="slide-img" src="./images/photo1.jpg">
 
     <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
@@ -115,7 +116,7 @@
     </div>
     <!-----------Tableau --------------->
 <table class="tableau-style">
-    <thead>
+    <thead>    <!-----ensemble de lignes qui définit l'en-tête des colonnes----->
         <tr>
             <th>Début de la période</th>      <!----titre--->
             <th>Fin de la période</th>
@@ -123,10 +124,10 @@
         </tr>   
     </thead>
 
-    <tbody>
-        <tr>
-            <td>1 janvier 2023</td><!----Table data = contenu tableau par ligne---->
-            <td>28 mai 2023</td>
+    <tbody>   <!-----regrouper un ou plusieurs éléments <tr>-------->
+        <tr>    <!----- ligne de cellules dans un tableau------>
+            <td>1 janvier 2023</td>
+            <td>28 mai 2023</td>  <!----Table data = contenu tableau par ligne---->
             <td>2500 €</td>
         </tr>
         <tr>
@@ -201,7 +202,7 @@
         <div class="col">
             <div class="inputBox">
                 <input type="text" name="" required="required">
-                <span class="text">Nom</span>
+                <span class="text">Nom</span>    <!-----Span = conteneur générique en ligne------->
                 <span class="line"></span>
             </div>
         </div>
